@@ -43,5 +43,8 @@ Specifically, it computes the classification of initial conditions in the two-di
 
 The code uses a parallel loop for efficiency.
 
+#### makeboundaries.m
+Matlab script that plots the boundaries obtained via build_M1_M2.m resulting in Figure 4. 
+
 #### build_M1_M2.m
 Julia script that builds, plots and exports (in .mat format) the boundaries $\partial U_1$ and $\partial U_2$ of the regions $U_1$ and $U_2$ of population collapse (blue and pink region) computed empirically by 'Counting_itr_before_collapse.m'
