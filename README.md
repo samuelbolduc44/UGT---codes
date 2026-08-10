@@ -3,7 +3,7 @@
 ## FIG1.m
 An illustrative trajectory of the GWL model replicating the calibration done by Lagerlöf (2008). The economy, represented by the endogenous state vector $X_t = (G_t, A_t, L_t)$ (panels (a)-(c)) and the endogenous variables $e_t$, $z_t$, $h_t$ (panels (d)-(f)), undergoes the three stages predicted by unified growth theory.
 
-## FIG.m
+## FIG2.m
 An illustrative trajectory of the GWL model with a slightly perturbed value of $L_0$, showing the population collapse following the event $L_1 = 0$.
 
 ## Counting_itr_before_collapse.m
