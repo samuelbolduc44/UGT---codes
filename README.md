@@ -35,6 +35,9 @@ An illustrative trajectory of the GWL model with a slightly perturbed value of $
 #### Counting_itr_before_collapse.m
 Helper function for producing FIG 3 and FIG 4. Simply adjust the range of $A_0$, $L_0$, and the value for $G_0$.
 
+#### varyinggamma.m
+Solve asymptotic system. Used to make FIG7
+
 Specifically, it computes the classification of initial conditions in the two-dimensional $(L_0, A_0)$-slice, at chosen $G_0$, of the full state space $\mathbb{R}^3_{\geq 0}$.
 
 - **White region:** Initial conditions that do not undergo the collapse set over the simulated horizon.
