@@ -32,6 +32,10 @@ An illustrative trajectory of the GWL model replicating the calibration done by 
 #### FIG2.m
 An illustrative trajectory of the GWL model with a slightly perturbed value of $L_0$, showing the population collapse following the event $L_1 = 0$.
 
+#### IC_Sweep.m
+Classification of initial conditions in the $(L_0,A_0)$-slice. It produces the last figure of the paper.
+
+
 #### varyinggamma.m
 Solve asymptotic system. Used to make FIG7
 
