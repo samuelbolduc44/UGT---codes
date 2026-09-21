@@ -45,6 +45,9 @@ Panel (b) of FIG8.
 #### bifdiagram_paper.m
 Panel (a) of FIG8.
 
+#### smoothtrajectory_simulate.m
+Solve the sGW model. The code produces the left or right column of Fig. 9. The user must adjust the y-range and the colours. 
+
 #### Counting_itr_before_collapse.m
 Helper function for producing FIG 3 and FIG 4. Simply adjust the range of $A_0$, $L_0$, and the value for $G_0$.
 
