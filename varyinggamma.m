@@ -1,5 +1,4 @@
 clear all
-close all
 % =========== PARAMETERS ===========
 p = struct;
 p.rho   = 0.879;
@@ -15,7 +14,7 @@ figure(1); hold on
 
 %% FIRST RUN
 p.gamma=0.21;
-x0 = [1.0752; 10^6; 9.9109]; % G A L
+x0 = [1.2632; 768.9279; 11.5427+3]
 n_iter = 20;
 xs = x0;
 for i = 1:n_iter
@@ -36,7 +35,10 @@ t = 0:n_iter;
 % save first run for insets later
 t1 = t;  xs1 = xs;  e1 = e_series;  h1 = h_series;  z1 = z_series;
 
-col1_A = [255 17 0]/255; % 
+col1_A = [255 17 0]/255; % ORIIGNAL
+col1_A = [255 118 121]/255;
+col1_A = [203 17 0]/255; % 
+
 col2_A = col1_A;
 
 subplot(1,3,1)%G
@@ -73,6 +75,9 @@ t = 0:n_iter;
 t1 = t;  xs1 = xs;  e1 = e_series;  h1 = h_series;  z1 = z_series;
 
 col1_A = [255 17 0]/255; % 
+col1_A = [255 118 121]/255;
+col1_A = [203 17 0]/255; % 
+
 col2_A = col1_A;
 
 subplot(1,3,2)%G
@@ -139,7 +144,7 @@ new_height = pos(4) * 0.2642;
 fig.Position = [pos(1), pos(2) + pos(4) - new_height, pos(3), new_height];
 
 % SAM'S CODE
-
+ylim([5 60])
 % ── observables ──────────────────────────────────────────────────────────
 function e = E(G, p)
     e = max(0, -p.rho*p.tau + sqrt(p.tau*(1-p.rho)*G));
