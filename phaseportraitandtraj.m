@@ -4,8 +4,8 @@ clear all
 
 
 
-plotAfterPhase()
-%plotBeforePhase()
+%plotAfterPhase()
+plotBeforePhase()
 
 %plotDuringPhase()
 
@@ -76,7 +76,7 @@ function showSmallPhaseSpace()
     p.gamma=0.21; % panel b
     p.gamma = p.tau + (p.a*p.tau*(1-p.rho) - p.rho*p.tau); % panel c
     p.gamma = .24; % panel d
-    x0 = [1.0752; 10^6; 9.9109]; % G A L
+    x0 = [1.2632; 768.9279; 11.5427+3]; % G A L
     n_iter = 60;
     xs = x0;
     for i = 1:n_iter
@@ -97,7 +97,9 @@ function showSmallPhaseSpace()
     % save first run for insets later
     t1 = t;  xs1 = xs;  e1 = e_series;  h1 = h_series;  z1 = z_series;
     
-    col1_A = [255 17 0]/255; % 
+    col1_A = [255 17 0]/255; % ORIIGNAL
+    %col1_A = [255 118 121]/255;
+    col1_A = [203 17 0]/255; % 
     col2_A = col1_A;
     
     
