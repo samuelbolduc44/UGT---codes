@@ -1,4 +1,4 @@
-# Dynamics, bifurcations and extensions of models of unified growth
+# Collapsing economies and endogenous takeoff in unified growth theory 
 
 ## 🚀 Description 
 
@@ -12,7 +12,7 @@ Later efforts [[Lagerlöf 2006]](https://www.aeaweb.org/articles?id=10.1257/aer.
 
 ### ✏️  Outline
 
-__Collaborators:__ Samuel Bolduc St-Aubin (U. of Auckland, New Zealand), Sam Doak (U. of Auckland, New Zealand) and Greta Meggiorini (U. of Auckland, New Zealand). 
+__Collaborators:__  Sam Doak (U. of Auckland, New Zealand), Greta Meggiorini (U. of Auckland, New Zealand), Samuel Bolduc St-Aubin (U. of Auckland, New Zealand) and Davide Papapicco (U. of Auckland, New Zealand).
 
 We certify Lagerlöf's numerical findings and expand upon them by putting UGT models through the rigorous machinery of dynamical systems theory and bifurcation analysis.
 Among the numerous findings, we hereby list the most important ones:
